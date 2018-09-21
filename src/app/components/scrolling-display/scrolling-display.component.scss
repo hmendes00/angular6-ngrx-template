@@ -1,0 +1,45 @@
+:host {
+  width: 100vw;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  .displayer-wrapper {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+  }
+  .scrolling-area {
+    display: flex;
+    align-items: center;
+
+    .displayer {
+      float: left;
+      width: 250px;
+      height: 150px;
+      background: white;
+      margin-left: 1rem;
+      transition: width 0.5s, height 0.5s;
+      cursor: pointer;
+    }
+  
+    .displayer:hover {
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  .left-arrow,.right-arrow {
+    color: #EEEEEE;
+    font-size: 50px;
+    padding: 0 20px;
+    background: rgba(255, 255, 255, 0);
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .left-arrow:hover,.right-arrow:hover {
+    background:  rgba(255,255,255,0.2);
+  }
+}

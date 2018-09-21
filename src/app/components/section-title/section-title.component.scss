@@ -1,0 +1,18 @@
+:host {
+  display: table;
+  padding: 15px;
+
+  .section-title {
+    h2 {
+      font-size: 38px;
+      line-height: 42px;
+      font-weight: 300;
+      margin: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+  }
+}
+
+:host(.center) {
+  margin: 0 auto;
+}
